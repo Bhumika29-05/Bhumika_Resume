@@ -1,0 +1,872 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Skills | Bhumika Toche</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skills.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                Bhumika<span>.</span>
+            </a>
+
+            <nav>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="skills.html" class="active">
+                    Skills
+                </a>
+
+                <a href="projects.html">
+                    Projects
+                </a>
+
+                <a href="experience.html">
+                    Experience
+                </a>
+
+                <a href="certifications.html">
+                    Certifications
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <section class="skills-page">
+
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    MY TECHNICAL TOOLKIT
+                </p>
+
+                <h1>
+                    Skills & <span>Technologies</span>
+                </h1>
+
+                <p>
+                    Technologies and tools I use to build intelligent,
+                    scalable and practical solutions.
+                </p>
+
+            </div>
+
+
+
+            <!-- SKILL FILTER -->
+
+            <div class="skill-tabs">
+
+                <button
+                    class="skill-tab active"
+                    onclick="filterSkills('all', this)">
+                    All
+                </button>
+
+                <button
+                    class="skill-tab"
+                    onclick="filterSkills('ai', this)">
+                    AI & ML
+                </button>
+
+                <button
+                    class="skill-tab"
+                    onclick="filterSkills('development', this)">
+                    Development
+                </button>
+
+                <button
+                    class="skill-tab"
+                    onclick="filterSkills('devops', this)">
+                    DevOps
+                </button>
+
+                <button
+                    class="skill-tab"
+                    onclick="filterSkills('database', this)">
+                    Database
+                </button>
+
+            </div>
+
+
+
+            <!-- SKILL CARDS -->
+
+            <div class="skills-grid">
+
+
+                <!-- PYTHON -->
+
+                <article class="skill-card" data-category="ai">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo python">
+                            Py
+                        </div>
+
+                        <span class="skill-level">
+                            ADVANCED
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Python
+                    </h2>
+
+                    <p>
+                        Programming, data analysis,
+                        automation and machine learning.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 90%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- MACHINE LEARNING -->
+
+                <article class="skill-card" data-category="ai">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo ml">
+                            ML
+                        </div>
+
+                        <span class="skill-level">
+                            ADVANCED
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Machine Learning
+                    </h2>
+
+                    <p>
+                        Regression, classification,
+                        clustering and model evaluation.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>85%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 85%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- C++ -->
+
+                <article class="skill-card" data-category="development">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo cpp">
+                            C++
+                        </div>
+
+                        <span class="skill-level">
+                            ADVANCED
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        C++
+                    </h2>
+
+                    <p>
+                        Object-oriented programming,
+                        data structures and algorithms.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>85%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 85%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- JAVA -->
+
+                <article class="skill-card" data-category="development">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo java">
+                            Java
+                        </div>
+
+                        <span class="skill-level">
+                            INTERMEDIATE
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Java
+                    </h2>
+
+                    <p>
+                        Application development,
+                        OOP and Android development.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>80%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 80%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- HTML CSS -->
+
+                <article class="skill-card" data-category="development">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo web">
+                            Web
+                        </div>
+
+                        <span class="skill-level">
+                            ADVANCED
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        HTML / CSS
+                    </h2>
+
+                    <p>
+                        Responsive interfaces,
+                        modern layouts and UI design.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>90%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 90%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- JAVASCRIPT -->
+
+                <article class="skill-card" data-category="development">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo js">
+                            JS
+                        </div>
+
+                        <span class="skill-level">
+                            INTERMEDIATE
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        JavaScript
+                    </h2>
+
+                    <p>
+                        Interactive interfaces,
+                        DOM manipulation and web functionality.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>78%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 78%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- REACT -->
+
+                <article class="skill-card" data-category="development">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo react">
+                            R
+                        </div>
+
+                        <span class="skill-level">
+                            INTERMEDIATE
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        ReactJS
+                    </h2>
+
+                    <p>
+                        Component-based interfaces
+                        and modern frontend development.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>75%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 75%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ANDROID -->
+
+                <article class="skill-card" data-category="development">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo android">
+                            A
+                        </div>
+
+                        <span class="skill-level">
+                            INTERMEDIATE
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Android Development
+                    </h2>
+
+                    <p>
+                        Android application development
+                        using Java and Kotlin.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>78%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 78%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- DOCKER -->
+
+                <article class="skill-card" data-category="devops">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo docker">
+                            D
+                        </div>
+
+                        <span class="skill-level">
+                            INTERMEDIATE
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Docker
+                    </h2>
+
+                    <p>
+                        Containers, Dockerfiles,
+                        images and application deployment.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>78%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 78%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- GIT -->
+
+                <article class="skill-card" data-category="devops">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo git">
+                            Git
+                        </div>
+
+                        <span class="skill-level">
+                            ADVANCED
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Git & GitHub
+                    </h2>
+
+                    <p>
+                        Version control, repositories,
+                        branching and collaboration.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>88%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 88%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- CI/CD -->
+
+                <article class="skill-card" data-category="devops">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo cicd">
+                            CI
+                        </div>
+
+                        <span class="skill-level">
+                            LEARNING
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        CI / CD
+                    </h2>
+
+                    <p>
+                        Automated build, testing and
+                        deployment workflows.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>65%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 65%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- MYSQL -->
+
+                <article class="skill-card" data-category="database">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo mysql">
+                            SQL
+                        </div>
+
+                        <span class="skill-level">
+                            ADVANCED
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        MySQL
+                    </h2>
+
+                    <p>
+                        Database design, queries,
+                        joins, procedures and triggers.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>85%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 85%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- FLASK -->
+
+                <article class="skill-card" data-category="development">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo flask">
+                            F
+                        </div>
+
+                        <span class="skill-level">
+                            INTERMEDIATE
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Flask
+                    </h2>
+
+                    <p>
+                        Python web applications,
+                        REST APIs and backend development.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>75%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 75%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- KUBERNETES -->
+
+                <article class="skill-card" data-category="devops">
+
+                    <div class="skill-card-top">
+
+                        <div class="skill-logo kubernetes">
+                            K8s
+                        </div>
+
+                        <span class="skill-level">
+                            LEARNING
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Kubernetes
+                    </h2>
+
+                    <p>
+                        Learning container orchestration,
+                        deployments and services.
+                    </p>
+
+                    <div class="skill-progress">
+
+                        <div class="progress-label">
+                            <span>Proficiency</span>
+                            <span>55%</span>
+                        </div>
+
+                        <div class="progress-bar">
+                            <span style="width: 55%"></span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+            </div>
+
+
+
+            <!-- TOOLBOX -->
+
+            <div class="toolbox-section">
+
+                <div class="toolbox-heading">
+
+                    <span>
+                        02
+                    </span>
+
+                    <div>
+
+                        <p>
+                            DEVELOPMENT TOOLBOX
+                        </p>
+
+                        <h2>
+                            Tools I work with
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="toolbox">
+
+                    <span>Python</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>SQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>ReactJS</span>
+                    <span>NodeJS</span>
+                    <span>Flutter</span>
+                    <span>Kotlin</span>
+                    <span>Spring Boot</span>
+                    <span>FastAPI</span>
+                    <span>Flask</span>
+                    <span>Docker</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>MySQL</span>
+                    <span>Jupyter</span>
+                    <span>Google Colab</span>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer>
+
+        <p>
+            © 2026 Bhumika Toche. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+
+    <script>
+
+        function filterSkills(category, button) {
+
+            const cards =
+                document.querySelectorAll(".skill-card");
+
+            const buttons =
+                document.querySelectorAll(".skill-tab");
+
+
+            buttons.forEach(function(btn) {
+
+                btn.classList.remove("active");
+
+            });
+
+
+            button.classList.add("active");
+
+
+            cards.forEach(function(card) {
+
+                const cardCategory =
+                    card.getAttribute("data-category");
+
+
+                if (
+                    category === "all" ||
+                    cardCategory === category
+                ) {
+
+                    card.style.display = "block";
+
+                    setTimeout(function() {
+
+                        card.classList.add("visible");
+
+                    }, 20);
+
+                } else {
+
+                    card.classList.remove("visible");
+
+                    card.style.display = "none";
+
+                }
+
+            });
+
+        }
+
+
+        document.addEventListener(
+            "DOMContentLoaded",
+            function() {
+
+                document
+                    .querySelectorAll(".skill-card")
+                    .forEach(function(card) {
+
+                        card.classList.add("visible");
+
+                    });
+
+            }
+        );
+
+    </script>
+
+
+</body>
+
+</html>
+```
