@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -70,9 +69,16 @@
 
                     <div class="certificate-image">
 
-                        <img
-    src="images/sih.png"
-    alt="Smart India Hackathon Certificate">
+                        <a
+                            href="images/sih.png"
+                            target="_blank"
+                            title="View Smart India Hackathon Certificate">
+
+                            <img
+                                src="images/sih.png"
+                                alt="Smart India Hackathon Certificate">
+
+                        </a>
 
                         <div class="certificate-overlay">
 
@@ -99,15 +105,18 @@
 
                         </div>
 
+
                         <h2>
                             Smart India Hackathon
                         </h2>
+
 
                         <p>
                             Participated in Smart India Hackathon
                             and worked on an innovative technology
                             solution as part of a team.
                         </p>
+
 
                         <div class="certificate-footer">
 
@@ -116,17 +125,18 @@
                             </span>
 
                             <a
-    href="images/sih.png"
-    target="_blank"
-    class="certificate-btn">
-    View
-</a>
+                                href="images/sih.png"
+                                target="_blank"
+                                class="certificate-btn">
+                                View Certificate
+                            </a>
 
                         </div>
 
                     </div>
 
                 </article>
+
 
 
                 <!-- CERTIFICATE 2 -->
@@ -136,13 +146,19 @@
                     <div class="certificate-image">
 
                         <div class="certificate-placeholder">
-                            <span>01</span>
+
+                            <span>
+                                01
+                            </span>
+
                             <p>
                                 Add Certificate
                             </p>
+
                         </div>
 
                     </div>
+
 
                     <div class="certificate-content">
 
@@ -158,14 +174,17 @@
 
                         </div>
 
+
                         <h2>
                             Add Your Certificate
                         </h2>
+
 
                         <p>
                             Replace this card with your certificate
                             name, issuing organization and details.
                         </p>
+
 
                         <div class="certificate-footer">
 
@@ -173,7 +192,9 @@
                                 CERTIFICATE
                             </span>
 
-                            <button class="certificate-btn">
+                            <button
+                                class="certificate-btn"
+                                type="button">
                                 View
                             </button>
 
@@ -184,6 +205,7 @@
                 </article>
 
 
+
                 <!-- CERTIFICATE 3 -->
 
                 <article class="certificate-card">
@@ -191,13 +213,19 @@
                     <div class="certificate-image">
 
                         <div class="certificate-placeholder">
-                            <span>02</span>
+
+                            <span>
+                                02
+                            </span>
+
                             <p>
                                 Add Certificate
                             </p>
+
                         </div>
 
                     </div>
+
 
                     <div class="certificate-content">
 
@@ -213,14 +241,17 @@
 
                         </div>
 
+
                         <h2>
                             Add Your Certificate
                         </h2>
+
 
                         <p>
                             Add another certification or course
                             you have completed.
                         </p>
+
 
                         <div class="certificate-footer">
 
@@ -228,7 +259,9 @@
                                 CERTIFICATE
                             </span>
 
-                            <button class="certificate-btn">
+                            <button
+                                class="certificate-btn"
+                                type="button">
                                 View
                             </button>
 
@@ -239,6 +272,7 @@
                 </article>
 
 
+
                 <!-- CERTIFICATE 4 -->
 
                 <article class="certificate-card">
@@ -246,13 +280,19 @@
                     <div class="certificate-image">
 
                         <div class="certificate-placeholder">
-                            <span>03</span>
+
+                            <span>
+                                03
+                            </span>
+
                             <p>
                                 Add Certificate
                             </p>
+
                         </div>
 
                     </div>
+
 
                     <div class="certificate-content">
 
@@ -268,14 +308,17 @@
 
                         </div>
 
+
                         <h2>
                             Add Your Certificate
                         </h2>
+
 
                         <p>
                             Add another achievement, certification
                             or technical course.
                         </p>
+
 
                         <div class="certificate-footer">
 
@@ -283,7 +326,9 @@
                                 CERTIFICATE
                             </span>
 
-                            <button class="certificate-btn">
+                            <button
+                                class="certificate-btn"
+                                type="button">
                                 View
                             </button>
 
@@ -292,6 +337,7 @@
                     </div>
 
                 </article>
+
 
             </div>
 
@@ -307,77 +353,6 @@
         </p>
 
     </footer>
-
-
-    <div id="certificateModal" class="certificate-modal">
-
-        <div class="modal-content">
-
-            <button
-                class="modal-close"
-                onclick="closeCertificate()">
-                ×
-            </button>
-
-            <div class="modal-icon">
-                🏆
-            </div>
-
-            <h2>
-                Smart India Hackathon
-            </h2>
-
-            <p>
-                Your SIH certificate can be displayed here.
-            </p>
-
-            <a
-                href="#"
-                class="modal-button">
-                Open Certificate
-            </a>
-
-        </div>
-
-    </div>
-
-
-    <script>
-
-        function openCertificate(type) {
-
-            const modal =
-                document.getElementById("certificateModal");
-
-            modal.classList.add("show");
-
-        }
-
-
-        function closeCertificate() {
-
-            const modal =
-                document.getElementById("certificateModal");
-
-            modal.classList.remove("show");
-
-        }
-
-
-        window.addEventListener("click", function(event) {
-
-            const modal =
-                document.getElementById("certificateModal");
-
-            if (event.target === modal) {
-
-                modal.classList.remove("show");
-
-            }
-
-        });
-
-    </script>
 
 </body>
 
